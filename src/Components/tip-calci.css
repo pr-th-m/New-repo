@@ -1,0 +1,140 @@
+*
+{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body
+{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282b30;
+}
+.calci-container
+{
+    width:500px;
+    height: 600px;
+    background-color: #444C5D;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.input-container
+{
+    width:97%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.input-item-container
+{
+    margin:40px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.text
+{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.display-container
+{
+    width:97%;
+    height: 25%;
+    background-color: inherit;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color:white;
+}
+.tip-percent
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tip-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.percent-1,.percent-2,.percent-3
+{
+    width:100px;
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    height: 35px;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bill-input
+{
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 30px;
+    color:#444C5D;
+    padding:10px;
+}
+.custom-tip,.custom-tip-input
+{
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    background-color: rgb(205, 205, 205);
+    text-align: center;
+    cursor: pointer;
+}
+.custom-tip-input
+{
+    display: none;
+}
+.number-input
+{
+    width:200px;
+    height: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+    background-color: rgb(205, 205, 205);
+    color:rgb(56, 56, 56);
+}
+.add,.sub
+{
+    border-radius: 5px;
+    width:35px;
+    height: 35px;
+    border: none;
+    font-size: 20px;
+    background-color:rgb(205, 205, 205);
+    cursor: pointer;
+}
+.number-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.number-input{
+    border:2px solid rgb(91, 91, 91);
+    outline: none;
+}
